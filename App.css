@@ -1,0 +1,190 @@
+bg-green{
+    background: var(--green-clr);
+}
+
+bg-dark-blue{
+    background: var(--dark-blue-clr);
+}
+
+txt-green{
+    color: var(--green-clr);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+txt-gray{
+    color: var(--gray-clr);
+}
+
+
+.name-logo{
+    height: 20px;
+    width: 20px;
+}
+
+
+
+.chat{
+    border: 0.5;
+    color: black;
+    border-radius: 5px;
+    background-color: rgb(169, 235, 38);
+    shape-margin: 2;
+};
+
+.navbar-toggler-icon{
+    color: white;
+    width: 2.2rem;
+};
+
+span{
+    color: green;
+}
+p{
+    color: rgb(148, 145, 145);
+};
+.web{
+    background-color: green;
+}
+
+.portfolio{
+    border: 0.5px;
+    color: black;
+    
+    border-radius: 5px;
+    background-color: rgb(166, 235, 30);
+    shape-margin: 4;
+}
+
+.image-container{
+    width: 30rem;
+    aspect-ratio: 1;
+    border-radius: 60%;
+    background-image: url(https://static.theprint.in/wp-content/uploads/2023/01/ANI-20230110041835.jpg);
+    background-position: center;
+    background-size: 125%;
+    border-top: 1rem solid white;
+    border-bottom: 1rem solid white;
+    box-shadow: 
+    0 0 1rem green,
+    inset 0 0 1rem green;
+    
+};
+
+
+.hero-section{
+    min-height: 85vh;
+}
+h1{
+    font-size: 3.5rem;
+}
+.dvlpr{
+    color: rgb(166, 235, 30);
+}
+
+p{
+    font-size: .95rem;
+    max-width: 500px;
+};
+
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+@media screen and (max-width:680px){
+    h1{
+        font-size: 2.8rem;
+    }
+
+    .image-container{
+        width: 20rem;
+    }
+};
+
+h6{
+    letter-spacing: 10rem;
+    font-size: .8rem;
+}
+
+
+
+h2{
+    color: rgb(166, 235, 30);
+}
+
+.section-container{
+    padding-block: 4rem;
+}
+
+.about-me{
+    width: 30rem;
+    aspect-ratio: 1;
+    border-radius: 60%;
+    background-image: url(https://images.forbesindia.com/media/images/2014/Dec/topimg_26139_hrithik_roshan.jpg);
+    background-position: center;
+    background-size: 90%;
+    border-top: 1rem solid white;
+    border-bottom: 1rem solid white;
+    box-shadow: 
+    0 0 1rem green,
+    inset 0 0 1rem green;
+};
+
+
+
+
+.card-text{
+    text-align: center;
+}
+
+
+
+
+
+
+
+.card{
+    width: 700px;
+    border-color: rgb(16, 216, 16);
+    margin-left: 200px;
+    background-image: rgb(36, 206, 36);
+}
+
+
+
+.section-container{
+    padding-block: 2rem;
+}
+
+
+img{
+    height: 100px;
+    width: 100px;
+    display: inline;
+    border-radius: 50%;
+    border-color: green
+}
+
+
+form{
+    width: 32rem;
+    background-color: rgb(165, 235, 30);
+    border-radius: 2%;
+    padding: 5%;
+}
+
+
+
+
+
+.form-control{
+    border: .1rem solid var(--gray-clr);
+}
